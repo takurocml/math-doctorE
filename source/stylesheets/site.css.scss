@@ -1,0 +1,97 @@
+@charset "utf-8";
+@import "normalize";
+
+body {
+  background-image: url(/images/back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+$main-color: #003894 !default;
+$sub-color: #deddef !default;
+$white: #ffffff !default;
+
+.white {
+  color: #ffffff;
+}
+
+.txt-small {
+  font-size: 12px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.bg-main-color {
+  background-color:  $main-color;
+}
+
+.bg-sub-color {
+  background-color: $sub-color;
+}
+
+.border-math-doctor {
+  border-bottom: 1px solid #000000;
+}
+
+.bg-line {
+  padding: 5px 0px;
+}
+
+.bg-sub-line {
+  height: 22px;
+}
+
+.txt-sub-line {
+  line-height: 22px;
+}
+
+
+li {
+  list-style: none;
+}
+
+ul.ul-basic {
+  background-color: $white;
+  padding: 0px;
+  li.li-basic {
+    padding: 15px 0px;
+    margin-left: 16px;
+  }
+}
+
+nav.math-doctor {
+  img.logo {
+    width: 140px;
+    padding-left: 16px;
+  }
+}
+
+.main {
+  background-color: gray;
+}
+
+.test {
+  margin-top: 35px;
+  p {
+    padding-left: 16px;
+    margin: 0px;
+  }
+}
+
+.category {
+  p {
+    padding-left: 16px;
+    margin: 0px;
+  }
+}
+
+.card-header {
+  margin: 0px;
+  padding: 0px;
+  p {
+    padding-left: 16px;
+    margin: 0px;
+  }
+}
