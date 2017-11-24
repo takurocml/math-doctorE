@@ -43,8 +43,16 @@ $white: #ffffff !default;
   height: 22px;
 }
 
+.bg-sub-line-collapse {
+  height: 46px;
+}
+
 .txt-sub-line {
   line-height: 22px;
+}
+
+.txt-sub-line-collapse {
+  line-height: 46px;
 }
 
 
@@ -55,6 +63,7 @@ li {
 ul.ul-basic {
   background-color: $white;
   padding: 0px;
+  margin-bottom: 0px;
   li.li-basic {
     padding: 15px 0px;
     margin-left: 16px;
@@ -93,5 +102,12 @@ nav.math-doctor {
   p {
     padding-left: 16px;
     margin: 0px;
+    display: inline-block;
+    float: left;
+  }
+  i {
+    float: right;
+    padding-right: 16px;
+    line-height: 46px;
   }
 }
