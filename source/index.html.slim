@@ -2,17 +2,19 @@
 title: Welcome to Middleman
 ---
 
-.container-fruid
+.container
   == partial "partials/nav"
   /nav/
 
   .row
     .main.col-sm-12
       h1 数学ドクター
-      h6
-        |  hello world
-        br
-        |  hello world
+      button.btn.btn-success[type="button"]
+        | Log in
+    .sub.col-sm-12
+      button.btn.btn-warning.white[type="button"]
+        | Sign up
+
 
   .row
     .category.col-sm-12.col-md-12
