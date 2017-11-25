@@ -19,6 +19,14 @@ $white: #ffffff !default;
   font-size: 12px;
 }
 
+.txt-lighter {
+  font-weight: lighter;
+}
+
+.txt-center {
+  text-align: center;
+}
+
 .bold {
   font-weight: bold;
 }
@@ -31,8 +39,12 @@ $white: #ffffff !default;
   background-color: $sub-color;
 }
 
-.border-math-doctor {
+.border-bottom-black {
   border-bottom: 1px solid #000000;
+}
+
+.border-bottom-white {
+  border-bottom: 1px solid $white
 }
 
 .bg-line {
@@ -81,7 +93,7 @@ nav.math-doctor {
   background-color: gray;
 }
 
-.test {
+.category {
   margin-top: 35px;
   p {
     padding-left: 16px;
@@ -89,25 +101,37 @@ nav.math-doctor {
   }
 }
 
-.category {
-  p {
-    padding-left: 16px;
+.card {
+  padding: 0px;
+  float: left;
+  .card-header {
     margin: 0px;
+    padding: 0px;
+    p {
+      padding-left: 16px;
+      margin: 0px;
+      display: inline-block;
+      float: left;
+    }
+    i {
+      float: right;
+      padding-right: 16px;
+      line-height: 46px;
+    }
   }
 }
 
-.card-header {
-  margin: 0px;
-  padding: 0px;
-  p {
-    padding-left: 16px;
-    margin: 0px;
-    display: inline-block;
-    float: left;
+footer {
+  margin-top: 35px;
+  .footer-inner {
+    padding: 16px 16px;
   }
-  i {
-    float: right;
-    padding-right: 16px;
-    line-height: 46px;
+  ul.footer-list {
+    margin: 0px;
+    padding: 0px 0px 10px 0px;
+    li.footer-li-flo {
+       float: left;
+       margin-right: 6px;
+    }
   }
 }
