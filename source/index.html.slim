@@ -11,17 +11,14 @@ title: Welcome to Middleman
       h1 数学ドクター
       button.btn.btn-success[type="button"]
         | Log in
-    .sub.col-sm-12
-      button.btn.btn-warning.white[type="button"]
-        | Sign up
-
+      .sub
+        button.btn.btn-warning.white[type="button"]
+          | Sign up
 
   .row
-    .category.col-sm-12.col-md-12
-      p.bg-line.white.bold.bg-main-color カテゴリー
-  .row.row-category
-    .category-list.col-sm-12.col-md-12
-     == partial "partials/category"
+    .categories.bg-main-color.col-sm-12.col-md-12
+      p.bg-line.white.bold カテゴリー
+  == partial "partials/category"
 
   .row
     footer.col-sm-12.col-md-12.bg-main-color
@@ -40,3 +37,29 @@ title: Welcome to Middleman
           li.border-bottom-white
             p.white 特定商取引法特定商取引法に基づく表記
         p.white.txt-lighter.txt-center © 2017 数学Doctor. All rights reserved.
+
+
+  .row
+    .col-md-4.bg-yellow
+      .box-left.bg-skyblue
+        p test
+    .col-md-4
+      .box-center.bg-silver
+        p hello
+    .col-md-4
+      .box-right.bg-red
+        p world
+
+  .row
+    .col-md-12.bg-main-color
+      p.white カテゴリー
+  .row
+    .col-md-4.bg-yellow.left
+      .box.bg-skyblue
+        p test
+    .col-md-4
+      .box.bg-silver
+        p hello
+    .col-md-4
+      .box.bg-red
+        p world
