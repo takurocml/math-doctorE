@@ -7,17 +7,19 @@ title: Welcome to Middleman
   /nav/
 
   .row
-    .main.col-sm-12
+    .main.col-sm-12.px-3
       h1 数学ドクター
       button.btn.btn-success[type="button"]
         | Log in
       .sub
         button.btn.btn-warning.white[type="button"]
           | Sign up
+        button.btn.btn-primary[type="button"]
+          | Sign up
 
   .row
-    .categories.bg-main-color.col-sm-12.col-md-12
-      p.bg-line.white.bold カテゴリー
+    .categories.px-3.py-1.bg-main-color.col-sm-12.col-md-12
+      p.mb-0.white.bold カテゴリー
   == partial "partials/category"
 
   .row

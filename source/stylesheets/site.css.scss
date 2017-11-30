@@ -15,6 +15,10 @@ $white: #ffffff !default;
 
 .container {
   padding: 0;
+  .row {
+    padding: 0;
+    margin: auto;
+  }
 }
 
 .white {
@@ -57,8 +61,8 @@ $white: #ffffff !default;
   border-bottom: 1px solid $white
 }
 
-.bg-line {
-  padding: 5px 0px;
+.border-white {
+  border-color: $white;
 }
 
 .bg-sub-line {
@@ -66,7 +70,7 @@ $white: #ffffff !default;
 }
 
 .bg-sub-line-collapse {
-  height: 46px;
+  height: 48px;
 }
 
 .txt-sub-line {
@@ -74,7 +78,7 @@ $white: #ffffff !default;
 }
 
 .txt-sub-line-collapse {
-  line-height: 46px;
+  line-height: 48px;
 }
 
 .btn {
@@ -88,29 +92,27 @@ li {
 
 ul.ul-basic {
   background-color: $white;
-
-  li.li-basic {
-    padding: 15px 0px;
-    margin-left: 16px;
-  }
 }
+
+
+//ここから上は基本的な要素-----------------------------
 
 nav.math-doctor {
   img.logo {
     width: 140px;
-    padding-left: 16px;
   }
 }
+
+//mainいれるとしたら----------------------------------
 
 .main {
   background-color: gray;
 }
 
+//mainいれるとしたら----------------------------------
+
 .categories {
   margin-top: 35px;
-  p {
-    margin-bottom: 0px;
-  }
 }
 
 .card {
@@ -121,15 +123,12 @@ nav.math-doctor {
     margin: 0px;
     padding: 0px;
     p {
-      padding-left: 16px;
-      margin: 0px;
       display: inline-block;
       text-align: left;
     }
     i {
       float: right;
-      padding-right: 16px;
-      line-height: 46px;
+      line-height: 48px;
     }
   }
 }
