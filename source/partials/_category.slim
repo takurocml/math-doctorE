@@ -1,56 +1,63 @@
-#accordion.row[role="tablist"]
-  .card.col-sm-12.col-md-4
-    #headingOne.card-header.bg-sub-color[role="tab"]
-      .category-tag[data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne"]
-        /展開前の名前は以下に/
+.row
+  .card.col-sm-12.col-md-4.px-0
+    .category-tag.bg-sub-color
+      /buttonにすることでどこ押しても開閉できるはず/
+      .button.border-bottom-black[data-toggle="collapse" href="#categoryOne" role="button" aria-expanded="false" aria-controls="categoryOne"]
         p.mb-0.pl-3.txt-sub-line-collapse.bg-sub-line-collapse.bold.main-color 小学生
         i.pr-3.fa.fa-chevron-down.chevron-down.main-color
         /展開用の下矢印/
-    #collapseOne.collapse.show[role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion"]
-      /ここから下が折り込まれるよ/
-      ul.ul-basic
-        /リストに関してはli-basicでmとpを調整する/
-        li.li-basic.border-bottom-black
-          a href="/" 小学1年生
-        li.li-basic.border-bottom-black
-          a href="/" 小学2年生
-        li.li-basic.border-bottom-black
-          a href="/" 小学3年生
-        li.li-basic.border-bottom-black
-          a href="/" 小学4年生
-        li.li-basic.border-bottom-black
-          a href="/" 小学5年生
-        li.li-basic
-          a href="/" 小学6年生
-  .card.col-sm-12.col-md-4
-    #headingTwo.card-header.bg-sub-color[role="tab"]
-      .category-tag[data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"]
-        /展開前の名前は以下に/
+    /以下が折りたたまれているもの/
+    #categoryOne.collapse
+      .category-list
+        ul.ul-basic.mb-0
+          /リストに関してはli-basicでmとpを調整する/
+          li.li-basic.border-bottom-black
+            a href="/" 小学1年生
+          li.li-basic.border-bottom-black
+            a href="/" 小学2年生
+          li.li-basic.border-bottom-black
+            a href="/" 小学3年生
+          li.li-basic.border-bottom-black
+            a href="/" 小学4年生
+          li.li-basic.border-bottom-black
+            a href="/" 小学5年生
+          li.li-basic
+            a href="/" 小学6年生
+
+  .card.col-sm-12.col-md-4.px-0
+    .category-tag.bg-sub-color
+      /buttonにすることでどこ押しても開閉できるはず/
+      .button.border-bottom-black[data-toggle="collapse" href="#categoryTwo" role="button" aria-expanded="false" aria-controls="categoryTwo"]
         p.mb-0.pl-3.txt-sub-line-collapse.bg-sub-line-collapse.bold.main-color 中学生
         i.pr-3.fa.fa-chevron-down.chevron-down.main-color
         /展開用の下矢印/
-    #collapseTwo.collapse.show[role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion"]
-      /ここから下が折り込まれるよ/
-      ul.ul-basic
-        li.li-basic.border-bottom-black
-          a href="/" 中学1年生
-        li.li-basic.border-bottom-black
-          a href="/" 中学2年生
-        li.li-basic
-          a href="/" 中学3年生
-  .card.col-sm-12.col-md-4
-    #headingThree.card-header.bg-sub-color[role="tab"]
-      .category-tag[data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"]
-        /展開前の名前は以下に/
-        p.mb-0.pl-3.txt-sub-line-collapse.bg-sub-line-collapse.bold.main-color 高校生
+    /以下が折りたたまれているもの/
+    #categoryTwo.collapse
+      .category-list
+        ul.ul-basic.mb-0
+          /リストに関してはli-basicでmとpを調整する/
+          li.li-basic.border-bottom-black
+            a href="/" 中学1年生
+          li.li-basic.border-bottom-black
+            a href="/" 中学2年生
+          li.li-basic
+            a href="/" 中学3年生
+
+  .card.col-sm-12.col-md-4.px-0
+    .category-tag.bg-sub-color
+      /buttonにすることでどこ押しても開閉できるはず/
+      .button.border-bottom-black[data-toggle="collapse" href="#categoryThree" role="button" aria-expanded="false" aria-controls="categoryThree"]
+        p.mb-0.pl-3.txt-sub-line-collapse.bg-sub-line-collapse.bold.main-color 小学生
         i.pr-3.fa.fa-chevron-down.chevron-down.main-color
         /展開用の下矢印/
-    #collapseThree.collapse.show[role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion"]
-      /ここから下が折り込まれるよ/
-      ul.ul-basic
-        li.li-basic.border-bottom-black
-          a href="/" 高校1年生
-        li.li-basic.border-bottom-black
-          a href="/" 高校2年生
-        li.li-basic
-          a href="/" 高校3年生
+    /以下が折りたたまれているもの/
+    #categoryThree.collapse
+      .category-list
+        ul.ul-basic.mb-0
+          /リストに関してはli-basicでmとpを調整する/
+          li.li-basic.border-bottom-black
+            a href="/" 高校1年生
+          li.li-basic.border-bottom-black
+            a href="/" 高校2年生
+          li.li-basic
+            a href="/" 高校3年生

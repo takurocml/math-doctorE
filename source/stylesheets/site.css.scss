@@ -115,27 +115,28 @@ nav.math-doctor {
 
 //mainいれるとしたら----------------------------------
 
+//カテゴリーのリストのところーーーーーーーーーーーーーーーーー
+
 .categories {
   margin-top: 35px;
 }
 
 .card {
-  padding: 0px;
-  border-radius: 0;
   border: none;
-  .card-header {
-    margin: 0px;
-    padding: 0px;
-    p {
-      display: inline-block;
-      text-align: left;
-    }
-    i {
-      float: right;
-      line-height: 48px;
-    }
+  border-radius: 0;
+  p {
+    display: inline-block;
+    text-align: left;
+  }
+  i {
+    float: right;
+    line-height: 48px;
   }
 }
+
+//カテゴリーのリストのところーーーーーーーーーーーーーーーーー
+
+
 
 footer {
   margin-top: 35px;
