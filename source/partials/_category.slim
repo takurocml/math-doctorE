@@ -1,7 +1,7 @@
 #accordion.row[role="tablist"]
-  .card.col-sm-12.col-md-3
+  .card.col-sm-12.col-md-4
     #headingOne.card-header.bg-sub-color[role="tab"]
-      .testy[data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne"]
+      .category-tag[data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne"]
         /展開前の名前は以下に/
         p.mb-0.pl-3.txt-sub-line-collapse.bg-sub-line-collapse.bold.main-color 小学生
         i.pr-3.fa.fa-chevron-down.chevron-down.main-color
@@ -9,7 +9,8 @@
     #collapseOne.collapse.show[role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion"]
       /ここから下が折り込まれるよ/
       ul.ul-basic
-        li.ml-3.py-3.border-bottom-black
+        /リストに関してはli-basicでmとpを調整する/
+        li.li-basic.border-bottom-black
           a href="/" 小学1年生
         li.li-basic.border-bottom-black
           a href="/" 小学2年生
@@ -21,12 +22,12 @@
           a href="/" 小学5年生
         li.li-basic
           a href="/" 小学6年生
-  .card.col-sm-12.col-md-3.offset-md-1
+  .card.col-sm-12.col-md-4
     #headingTwo.card-header.bg-sub-color[role="tab"]
-      .testy[data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"]
+      .category-tag[data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"]
         /展開前の名前は以下に/
-        p.txt-sub-line-collapse.bg-sub-line-collapse.bold.main-color 中学生
-        i.fa.fa-chevron-down.chevron-down.main-color
+        p.mb-0.pl-3.txt-sub-line-collapse.bg-sub-line-collapse.bold.main-color 中学生
+        i.pr-3.fa.fa-chevron-down.chevron-down.main-color
         /展開用の下矢印/
     #collapseTwo.collapse.show[role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion"]
       /ここから下が折り込まれるよ/
@@ -37,12 +38,12 @@
           a href="/" 中学2年生
         li.li-basic
           a href="/" 中学3年生
-  .card.col-sm-12.col-md-3.offset-md-1
+  .card.col-sm-12.col-md-4
     #headingThree.card-header.bg-sub-color[role="tab"]
-      .testy[data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"]
+      .category-tag[data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"]
         /展開前の名前は以下に/
-        p.txt-sub-line-collapse.bg-sub-line-collapse.bold.main-color 高校生
-        i.fa.fa-chevron-down.chevron-down.main-color
+        p.mb-0.pl-3.txt-sub-line-collapse.bg-sub-line-collapse.bold.main-color 高校生
+        i.pr-3.fa.fa-chevron-down.chevron-down.main-color
         /展開用の下矢印/
     #collapseThree.collapse.show[role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion"]
       /ここから下が折り込まれるよ/

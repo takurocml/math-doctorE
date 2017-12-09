@@ -92,6 +92,10 @@ li {
 
 ul.ul-basic {
   background-color: $white;
+  li.li-basic {
+    margin-left: 1rem;
+    padding: 1rem 0;
+  }
 }
 
 
@@ -135,20 +139,14 @@ nav.math-doctor {
 
 footer {
   margin-top: 35px;
-  .footer-inner {
-    padding: 16px 16px;
-  }
   ul.footer-list {
-    margin: 0px;
-    padding: 0px 0px 10px 0px;
     li.footer-li-flo {
        float: left;
-       margin-right: 6px;
     }
   }
 }
 
-
+//以下はcolのテスト用の色つけーーーーーーーーーーーーーーーーーーーーー
 .bg-red {
   background-color: red;
 }
@@ -163,21 +161,4 @@ footer {
 
 .bg-silver {
   background-color: silver;
-}
-
-.box-left {
-  padding-left: 0;
-  padding-right: 10px
-}
-
-.box-center {
-  padding: 0 10px;
-}
-
-.box-right {
-  padding-left: 10px;
-}
-
-.left {
-  padding-left: 0;
 }
